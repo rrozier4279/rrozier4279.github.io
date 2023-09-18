@@ -2,54 +2,42 @@
 <html lang="en">
     <head>
 <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compativle" content="IE-edge">
+<meta http-equiv="X-UA-Compativle" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
-                <ul>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="#index">Home</a></li>
-                </ul>
-            </nav>
-        </div>
-        <link rel="stylesheet" href="Style.css">
+    <header class="head">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <li class="dropdown">
+                    <a href="#">Home</a>
+                    <ul class="dropdown-content">
+                        <li><a href="chapter 1/Rodney.html">Chapter 1</a></li>
+                        <li><a href="chapter 2/html.html">Chapter 2</a></li>
+                        <li><a href="chapter 3/index.html">Chapter 3</a></li>
+                    </ul>
+                    </li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About</a></li>
+                </li>   
+            </ul>
+        </nav>
     </header>
+    <link rel="stylesheet" href="Style.css">
+    
+    <div class ="jason">
+
         <style>
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0
-    overflow hidden; 
-}
-li{
-    float: right;
-}
-li{
-    display: block;
-    padding: 8px;
-}
 body{
 
     background-image:url('Studio.jpg');
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
-}
-h1{
-    color:blueviolet;
     margin: 0;
     padding: 0;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    font-size: 3em;
-
 }
 footer{
 
@@ -61,10 +49,9 @@ footer{
     text-align:bottom;
     position: absolute;
 }
+
         </style>
-    </Head>
-    
-        <h1>Rodney's Webpage </h1>
+   
 
     <footer><p> &copy; Copyright 2023. All rights reserved</p></footer>
     </body>
