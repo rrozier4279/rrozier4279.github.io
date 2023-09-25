@@ -4,12 +4,9 @@ ul{
     padding: 0
      
 }
-li{
-    float: right;
-}
 li a{
     display: block;
-    padding: 6px;
+    padding: 8px;
 }
 h1{
     color:blueviolet;
