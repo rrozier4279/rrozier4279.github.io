@@ -27,7 +27,7 @@ footer{
     top: 96%;
     left: 0%;
     text-align:bottom;
-    position: absolute;
+    position: fixed;
 }
 .navbar ul {
     list-style-type: none;
