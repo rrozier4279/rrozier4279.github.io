@@ -4,12 +4,9 @@ ul{
     padding: 0
      
 }
-li{
-    float: right;
-}
 li a{
     display: block;
-    padding: 6px;
+    padding: 8px;
 }
 h1{
     color:blueviolet;
@@ -30,7 +27,7 @@ footer{
     top: 96%;
     left: 0%;
     text-align:bottom;
-    position: absolute;
+    position: fixed;
 }
 .navbar ul {
     list-style-type: none;
