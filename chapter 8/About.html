@@ -20,38 +20,60 @@
                         <li><a href="chapter 4/index.html">Chapter 4</a></li>
                         <li><a href="chapter 5/index.html">Chapter 5</a></li>
                         <li><a href="chapter 6/index.html">Chapter 6</a></li>
-                        <li><a href="chapter 7/index.html">Chapter 7</a></li>
-                        <li><a href="chapter 8/index.html">Chapter 8</a></li>
                     </ul>
                     </li>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="About.html">About</a></li>
+                <li><a href="news.html">News</a></li>
                   
             </ul>
         </nav>
     </header>
     <style>
-     body{
+.diagonal-images {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-background-image:url('mus.jpg');
-background-repeat:no-repeat;
-background-attachment:fixed;
-background-size:cover;
-margin: 0;
-padding: 0;
-position: relative;
+.diagonal-images img {
+    max-width: 100%;
+    height: auto;
+    transform: rotate(-45deg); 
+    margin: 10px; 
+}
+ body{
+
+    background-image:url('all.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.bubble-text {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 8px;
+    padding: 10px 20px;
+    background-color: rgba(3, 34, 55, 0.7); 
+    color: #fff;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
     </style>
     <link rel="stylesheet" href="Style.css">
-    
-    <div class ="jason">
 
+
+   
+    <div class="diagonal-images">
+        <img src="soicy.jpg" alt="My first">
+        <img src="boss.png" alt="Next project">
+        <img src="gold.png" alt="my plaq">
+    </div>
+    
+    <h1 class ="bubble-text">About my credits</h1>
     <footer><p> &copy; Copyright 2023. All rights reserved</p></footer>
     </body>
 </html>
-<h2 style = "color: purple;"> What i learned for class week is inline coding and how you do it is. <br> Using css as a style inline instead of with a closing tag </h2>
-
-<h2 style = "color: green;">You can make a style sheet by linking and make it for only a specific file by putting a period then file name.</h2>
-</body>
-</html> 
