@@ -137,24 +137,58 @@ footer{
     right: 10px;
 }
 
-.hamburger-icon {
-    width: 30px;
-    height: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
+.hicon .bar {
+    display: block;
+    width: 25px;
+    height: 3px; 
+    background-color: darkblue; 
+    margin: 4px 0; 
+    transition: 0.4s;
 }
 
 
-@media (max-width: 768px) {
-    .menu {
+
+
+
+.hicon {
+    display: none;
+    
+}
+
+
+.menub {
+    display: none; 
+    
+}
+
+
+@media (max-width: 600px) {
+    .hicon {
         display: block;
+    }
+    .menub {
+        display: none;
+    }
+    .menub .dropdown .dropdown-content {
+        background-color: #007bff; 
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+    .menub .dropdown .dropdown-content li a {
+        font-weight: bold; 
+        color: #ffffff; 
+        background-color: #007bff; 
+        padding: 10px; 
+        display: block; 
+    }
+
+    
+    .menub .dropdown .dropdown-content li a:hover {
+        color: #00ff00; 
     }
 }
 
-.bar {
-    width: 30px;
-    height: 4px;
-    background: #fff;
+/* Show menu when active */
+#menub.active {
+    display: block;
 }
