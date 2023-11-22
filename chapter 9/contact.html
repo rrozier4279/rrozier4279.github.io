@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compativle" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="fav" href="/favicon.ico">
+</head>
+<body>
+    <header class="head">
+        <nav class="navbar">
+            <ul>
+                    <li class="dropdown">
+                    <a href="#">Other</a>
+                    <ul class="dropdown-content">
+                        
+                        <li><a href="chapter 1/Rodney.html">Chapter 1</a></li>
+                        <li><a href="chapter 2/html.html">Chapter 2</a></li>
+                        <li><a href="chapter 3/index.html">Chapter 3</a></li>
+                        <li><a href="chapter 4/index.html">Chapter 4</a></li>
+                        <li><a href="chapter 5/index.html">Chapter 5</a></li>
+                        <li><a href="chapter 6/index.html">Chapter 6</a></li>
+                        <li><a href="chapter 7/index.html">Chapter 7</a></li>
+                        <li><a href="chapter 8/index.html">Chapter 8</a></li>
+                    </ul>
+                    </li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="About.html">About</a></li>
+                  
+            </ul>
+        </nav>
+    </header>
+    <style>    
+
+body{
+
+background-image:url('durk.webp');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+margin: 0;
+padding: 0;
+position: relative;
+}
+body::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7); 
+    position: absolute;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.jason {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+}
+.Social {
+    color: aqua;
+    margin: 0 30px;
+    padding: 0;
+    font-size: 100px;
+}
+.form-container {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: powderblue; 
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px; 
+    height: auto; 
+}
+
+.form-grid {
+    display: grid;
+    gap: 10px;
+}
+    </style>
+
+    <div class = "jason">
+    <link rel="stylesheet" href="Style.css">
+    
+    <div class ="jason">
+
+    <a class = "Social" href="https://www.instagram.com/reizorbeatz/?hl=en">
+        <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+    <a class = "Social" href="https://www.beatstars.com/rjreizor">
+        <ion-icon name="radio-outline"></ion-icon>
+    </a>
+    <a class = "Social" href="https://genius.com/artists/Reizor-beatz">
+        <ion-icon name="people-circle-outline"></ion-icon>
+    </a>
+    </div>
+    
+        <div class="form-container">
+            <form class="form-grid">
+                <h2>Leave your contact</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+    
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    
+
+    <footer><p> &copy; Copyright 2023. All rights reserved</p></footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
